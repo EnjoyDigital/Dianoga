@@ -2,7 +2,7 @@
 
 namespace Dianoga.Png
 {
-	public class PngQuantOptimizerResult : IOptimizerResult
+	public class PngOptimizerResult : IOptimizerResult
 	{
 		public bool Success { get; internal set; }
 		public string ErrorMessage { get; internal set; }

@@ -34,7 +34,7 @@ namespace Dianoga
 
 			if (extension.Equals("png"))
 			{
-				optimizer = new PngOptimizer(outputStream.Stream);
+				optimizer = new PngQuantOptimizer(outputStream.Stream);
 			}
 
 			if (extension.Equals("jpg") || extension.Equals("jpeg"))
